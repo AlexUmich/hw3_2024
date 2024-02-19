@@ -199,10 +199,6 @@ four rows in the grid. */
   align-items: center;
 }
 
-.text-block h2 {
-  text-align: top;
-}
-
 /* Add your media query here */
 @media screen and (min-width: 800px) {
   /* Step 9: Write the selector/rule property to style the nav element */
@@ -238,9 +234,5 @@ four rows in the grid. */
     align-items: center;
     max-height: 250px; /* Maximum height of 250px */
     overflow: auto; /* Ensure content that goes outside the grid cell is still reachable */
-  }
-
-  .text-block h2 {
-    text-align: top;
   }
 }
