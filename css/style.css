@@ -194,7 +194,6 @@ four rows in the grid. */
   border: 10px solid black;
   padding: 30px;
   text-align: center;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -216,11 +215,11 @@ four rows in the grid. */
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
   .about, .clients, .method-image, .contact-image {
-    grid-column: 3 / span 2; /* Begin in the third column and span two columns */
+    grid-column: 3 / span 2;
   }
   
   .method, .contact, .about-image, .clients-image {
-    grid-column: 2 / span 2; /* Begin in the second column and span two columns */
+    grid-column: 2 / span 2;
   }
 
   /* Step 13:Write the selector/rule property to update the .text-block class */
@@ -228,11 +227,10 @@ four rows in the grid. */
     background-color: rgba(255, 255, 255, 0.8);
     border: 10px solid black;
     padding: 30px;
-    text-align: center; /* Center text horizontally */
-    display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    max-height: 250px; /* Maximum height of 250px */
-    overflow: auto; /* Ensure content that goes outside the grid cell is still reachable */
+    max-height: 250px;
+    overflow: auto;
   }
 }
